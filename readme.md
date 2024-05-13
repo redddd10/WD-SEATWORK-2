@@ -5,21 +5,20 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
+ 
     <img src="./assets/img/hot-take-gengar-v0-9vygvee8nexb1.webp" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
+
   <h3 align="center">WD-SEATWORK-2</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
   Seatwork #2 - Formulating HTML
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+
 ![](https://visit-counter.vercel.app/counter.png?page=redddd10/WD-SEATWORK-2)
 
 ---
