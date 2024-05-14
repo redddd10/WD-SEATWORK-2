@@ -1,17 +1,67 @@
-* {
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: aquamarine;
+    background-color: cornflowerblue;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
 
-    section {
-        border: 2cm;
-        border-color: black;
-        > div {
-            border: 2cm;
-        border-color: black;
-        }
-    }
+section {
+   width: 100%;
+   max-width: 1200px;
+   margin-bottom: 20px;
+}
+
+.mypic, .myname {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.mypic {
+    width: 40%;
+    text-align: center;
+}
+
+.mypic img{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.myname {
+    width: 55%;
+}
+
+.myname header {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.myname p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.myinfo {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.myexperience, .myeducation, .myskills, .mycontact {
+    grid-column: span 1;
+    grid-row: auto;
 }
