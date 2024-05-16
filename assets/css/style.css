@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: cornflowerblue;
+    background-color:lightblue;
     font-family: arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -28,6 +28,7 @@ section {
 .mypic {
     width: 40%;
     text-align: center;
+    padding-left: 250px;
 }
 
 .mypic img{
@@ -48,6 +49,7 @@ section {
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
+    padding-top: 90px;
 }
 
 .myname p {
@@ -56,12 +58,26 @@ section {
     margin-bottom: 10px;
 }
 
-.myinfo {
-    grid-column: 1/3;
-    grid-row: 2/3;
+.myinfo, .myexperience, .myeducation {
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
 }
 
-.myexperience, .myeducation, .myskills, .mycontact {
-    grid-column: span 1;
-    grid-row: auto;
+.myinfo, .myexperience, .myeducation {
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+}
+
+.myinfo header, .myexerience header, .myeducation header {
+font-size: 24px;
+font-weight: bold;
+color: solid black;
+}
+
+.myinfo p, .myexerience p, .myeducation p {
+    font-size: 18px;
+    color: black;
+
 }
