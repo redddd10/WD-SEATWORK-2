@@ -6,8 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
  
-    <img src="./assets/img/hot-take-gengar-v0-9vygvee8nexb1.webp" alt="Nyebe" width="130" height="100">
-  </a>
+  <img src="./assets/img/" alt="Nyebe" width="130" height="100">
 
   <h3 align="center">WD-SEATWORK-2</h3>
 </div>
@@ -29,7 +28,6 @@
 ## Overview
 
 <!-- The following are just sample -->
-Description of the project in details.
 -A seatwork designed to test the student's skills in creating a resume using html and css
 
 ### Technology
