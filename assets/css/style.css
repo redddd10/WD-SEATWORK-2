@@ -13,21 +13,22 @@
     min-height: 100%;
  }
 
+
  .main{
     position: relative;
-    width: 100%;
+    width: 5%;
     min-width: 1000px;
     min-height: 1000px;  
     background: white;
     margin: 50px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr .5fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, .3);
  }
 
  .main .left{
     position: relative;
-    background: cadetblue;
+    background-color: darkolivegreen;
     padding: 40px;
  }
 
@@ -81,6 +82,7 @@
 }
 
 .title {
+   font-family: 'Courier New', Courier, monospace;
    color: white;
    text-transform: uppercase;
    font-weight: 600;
@@ -102,23 +104,22 @@
    cursor: pointer;
 }
 
+.title{
+   font-family: 'Courier New', Courier, monospace;
+}
+
 .info .infoeducation li{
    margin-bottom: 15px;
 }
 
 .info .infoeducation h5{
-   color: black;
-   font-weight: 500;
-}
-
-.info .infoeducation h4:nth-child(2){
    color: white;
    font-weight: 500;
 }
 
 .info .infoeducation h4{
-   color: white;
-   font-weight: 300;
+   color: black;
+   font-size: small;
 }
 
 .percentclass{
@@ -129,7 +130,7 @@
    position: relative;
    width: 100%;
    height: 6px;
-   background-color: indigo;
+   background-color: white;
    display: block;
    margin-top: 5px;
 }
@@ -139,12 +140,12 @@ position: absolute;
 top: 0;
 left: 0;
 height: 100%;
-background-color: mediumturquoise;
+background-color: black;
 }
 
 .main .right{
-   position: relative
-   background: whitesmoke;
+   position: relative;   
+   background-color: white;
    padding: 40px;
 }
 
@@ -159,10 +160,11 @@ background-color: mediumturquoise;
 .title2{
    color: indigo;
    text-transform: uppercase;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
    text-decoration: underline;
    text-decoration-thickness: ..05em;
    text-decoration-color: black;
+   font-family: 'Courier New', Courier, monospace;
 }
 
 p{
@@ -211,7 +213,7 @@ p{
    position: relative;
    width: 92%;
    height: 10px;
-   background: indigo;
+   background: black;
 }
 
 
@@ -221,12 +223,17 @@ p{
    left: 0;
    width: 92%;
    height: 100%;
-   background-color: mediumturquoise;
+   background-color: indigo;
 }
 
 .aboutinterest ul{
    display: grid;
    grid-template-columns: repeat(4,1fr);
+}
+
+.about ul{
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
 }
 
 .aboutinterest{
@@ -243,3 +250,30 @@ p{
 .personalinfo{
    list-style: none;
 }
+
+.title2:hover{
+   transform: scale(1.1);
+}
+
+.title:hover{
+   transform: scale(1.1);
+}
+
+.main .edge{
+   position: relative;   
+   background-color: indigo;
+   padding: 40px;
+}
+
+.edge p{
+   font-size: 52px;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   writing-mode: vertical-lr;
+   text-orientation: upright;
+}
+
+
+
+
+
