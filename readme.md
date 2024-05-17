@@ -67,7 +67,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Resume using HTML and CSS | Reference for code's appearance and nuances of applying various element and attribute manipulation. | https://www.youtube.com/watch?v=2StX20ykaeo |
