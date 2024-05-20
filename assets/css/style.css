@@ -15,8 +15,9 @@
 
 h1{
    color: white;
-   font-size: x-large;
+   font-size: 1.6em;
    text-align: center;
+   font-family:'Courier New', Courier, monospace;
 }
 
 .applicant{
@@ -41,6 +42,7 @@ font-style: italic;
     background-color: darkolivegreen;
     padding: 40px;
  }
+
 
 .profiletext{
    position: relative;
@@ -73,8 +75,12 @@ font-style: italic;
    object-fit: cover;
  }
 
+.context{
+   font-size: .7em;
+}
+
 .text{
-   font-size: 1em;
+   font-size: 1
 }
 
 .profiletext h2{
@@ -180,6 +186,7 @@ background-color: black;
    text-decoration-thickness: ..05em;
    text-decoration-color: black;
    font-family: 'Courier New', Courier, monospace;
+   background-color: beige;
 }
 
 p{
@@ -243,7 +250,7 @@ p{
 
 .aboutinterest ul{
    display: grid;
-   grid-template-columns: repeat(4,1fr);
+   grid-template-columns: repeat(2,1fr);
 }
 
 .about ul{
@@ -265,10 +272,12 @@ p{
 
 .title2:hover{
    transform: scale(1.1);
+   cursor: crosshair;
 }
 
 .title:hover{
    transform: scale(1.1);
+   cursor: crosshair;
 }
 
 .main .edge{
@@ -285,7 +294,19 @@ p{
    text-orientation: upright;
 }
 
+a h4{
+   text-decoration: underline;
+   text-decoration-color: white;
+}
 
+.foothead{
+   text-align: right;
+   font-size: .9em;
+}
 
+.footext{
+   text-align: right;
+   font-size: .7em;
+}
 
 
