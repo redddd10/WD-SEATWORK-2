@@ -209,6 +209,11 @@ p{
    font-weight: 600;
 }
 
+.google{
+   text-decoration: underline;
+   text-decoration-color: black;
+}
+
 .about .box .text h4{
    text-transform: uppercase;
    color: indigo;
@@ -278,6 +283,14 @@ p{
 .title:hover{
    transform: scale(1.1);
    cursor: crosshair;
+}
+
+.google:hover{
+   cursor: grab;
+}
+
+.slink:hover{
+   cursor: grab;
 }
 
 .main .edge{
