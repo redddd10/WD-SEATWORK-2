@@ -107,11 +107,13 @@ font-style: italic;
    color: white;
    text-transform: uppercase;
    font-weight: 600;
+   font-size: 1.5em;
    letter-spacing: .4px; 20px
    margin-bottom: 20px;
    text-decoration: underline;
    text-decoration-thickness: .05em;
-   text-decoration-color: black;
+   text-decoration-color: black;;
+   text-align: center;
 }
 
 .info ul{
@@ -183,9 +185,11 @@ background-color: black;
    text-transform: uppercase;
    margin-bottom: 20px;
    text-decoration: underline;
-   text-decoration-thickness: ..05em;
+   text-decoration-thickness: .05em;
    text-decoration-color: black;
    font-family: 'Courier New', Courier, monospace;
+   text-align: right;
+   font-size: 2em;
    background-color: beige;
 }
 
