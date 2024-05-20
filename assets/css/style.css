@@ -13,6 +13,16 @@
     min-height: 100%;
  }
 
+h1{
+   color: white;
+   font-size: x-large;
+   text-align: center;
+}
+
+.applicant{
+font-size: large;
+font-style: italic;
+}
 
  .main{
     position: relative;
@@ -47,6 +57,11 @@
    height: 200px;
    border-radius: 50%;
    overflow: hidden;
+}
+
+.profileimg p{
+   text-indent: ;
+   color: indigo;
 }
 
  .profiletext .profileimg img{
@@ -183,7 +198,7 @@ p{
 
 .about .box .yearcompany h5{
    text-transform: uppercase;
-   color: gray;
+   color: black;
    font-weight: 600;
 }
 
@@ -233,7 +248,8 @@ p{
 
 .about ul{
    display: grid;
-   grid-template-columns: repeat(6,1fr);
+   grid-template-columns: repeat(2,1fr);
+   list-style: none;
 }
 
 .aboutinterest{
@@ -244,10 +260,6 @@ p{
 }
 
 .interests{
-   list-style: none;
-}
-
-.personalinfo{
    list-style: none;
 }
 
