@@ -248,14 +248,52 @@ p{
 }
 
 
-.skilllevel .skillbar{
+.skilllevel .skillHTML{
    position: absolute;
    top: 0;
    left: 0;
-   width: 92%;
+   width: 52%;
    height: 100%;
    background-color: indigo;
 }
+
+.skilllevel .skillCSS{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 55%;
+   height: 100%;
+   background-color: indigo;
+}
+
+.skilllevel .skillC{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 75%;
+   height: 100%;
+   background-color: indigo;
+}
+
+.skilllevel .skillPS{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 85%;
+   height: 100%;
+   background-color: indigo;
+}
+
+.skilllevel .skillCANVA{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 98%;
+   height: 100%;
+   background-color: indigo;
+}
+
+
 
 .aboutinterest ul{
    display: grid;
@@ -324,6 +362,70 @@ a h4{
 .footext{
    text-align: right;
    font-size: .7em;
+}
+
+
+.aboutme .con .me{ 
+   position: relative;
+   width: 100%;
+   height: 12px;
+   background: black;
+}
+
+h6{
+   font-size: large;
+   text-align: center;
+}
+
+.slink .personalinfo{
+   color: black;
+   text-decoration: underline;
+   text-decoration-color: black;
+}
+
+.me .INTRO{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 62%;
+   height: 100%;
+   background-color: indigo;
+}
+
+.me .OBS{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 52%;
+   height: 100%;
+   background-color: indigo;
+}
+
+.me .FEEL{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 52%;
+   height: 100%;
+   background-color: indigo;
+}
+
+.me .JUD{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 69%;
+   height: 100%;
+   background-color: indigo;
+}
+
+.me .TUR{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 85%;
+   height: 100%;
+   background-color: indigo;
 }
 
 
